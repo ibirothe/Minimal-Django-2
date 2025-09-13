@@ -5,6 +5,7 @@ A very minimal website I built while learning Django.
 This website requires a few python packages:
 - django
 - django-crispy-forms
+- django-crispy-forms crispy-bootstrap4 (required for Bootstrap 4 form templates)
 
 To run the website navigate to upper level "mysite" directory and run the command via cmd: *python manage.py runserver*
 Then you should see a local host link that you can copy into your browser to see the website.

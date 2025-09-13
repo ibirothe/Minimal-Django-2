@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'main.apps.MainConfig',
     "register.apps.RegisterConfig",
     "crispy_forms",
+    "crispy_bootstrap4",
 ]
 
 AUTH_USER_MODEL = "register.CustomUser"
@@ -124,7 +125,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-CRISPY_TEMPLATE_PACK="bootstrap4"
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 LOGIN_REDIRECT_URL = "/"
 LOGOUT_REDIRECT_URL = "/"
